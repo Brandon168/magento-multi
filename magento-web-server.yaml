@@ -21,10 +21,11 @@ parameters:
   image:
     description: Server Image used for all servers.
     type: string
-    default: Ubuntu 12.04 LTS (Precise Pangolin)
+    default: CentOS 6.5 (PVHVM)
     constraints:
     - allowed_values:
       - Ubuntu 12.04 LTS (Precise Pangolin)
+      - CentOS 6.5 (PVHVM)
       description: Must be a supported operating system.
 
   flavor:
